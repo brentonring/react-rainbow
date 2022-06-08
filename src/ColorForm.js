@@ -6,7 +6,7 @@ function ColorForm(props) {
     const handleSubmit = (e) => {
         e.preventDefault()
         props.addColor(input)
-    }
+    };
 
     return (
         <div>
@@ -15,7 +15,7 @@ function ColorForm(props) {
                 <button type="submit">Submit!</button>
             </form>
         </div>
-    )
-}
+    );
+};
 
 export default ColorForm

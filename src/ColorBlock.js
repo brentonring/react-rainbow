@@ -5,7 +5,7 @@ function ColorBlock(props) {
         <div className="colorBlock" style={{'backgroundColor': props.color}}>
             <p>{props.color}</p>
         </div>
-    )
-}
+    );
+};
 
-export default ColorBlock
+export default ColorBlock;
